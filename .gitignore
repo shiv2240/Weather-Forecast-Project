@@ -1,0 +1,24 @@
+# Virtual Environment (Python node_modules equivalent)
+.venv/
+venv/
+ENV/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Binary model and scaler files (large pickles)
+*.pkl
+
+# Dataset files (large generated or downloaded data)
+weather_data.csv
+weather_data.json
+
+# Visualizations / plots
+prediction_plot.png
+
+# IDE configurations
+.vscode/
+.idea/
